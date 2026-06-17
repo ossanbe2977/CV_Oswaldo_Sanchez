@@ -1,12 +1,12 @@
 # CV_Example
 # Hoja de Vida
 
-## Nombre Completo
+## Oswaldo Sanchez Betancourt
 **Profesión:** _Tu profesión_
 
 ## 📞 Contacto
 - **Teléfono:** +57 3012423797
-- **Email:** [correo@ejemplo.com](ossanbe2977@gmail.com)
+- **Email:** [correo@ejemplo.com](ossanbe.sanchez2977@gmail.com)
 - **LinkedIn:** [linkedin.com/in/tuusuario](https://linkedin.com/in/tuusuario)
 
 ## 🏢 Experiencia Laboral

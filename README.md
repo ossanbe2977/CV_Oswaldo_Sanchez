@@ -8,7 +8,7 @@ Actualmente me encuentro ampliando mis fronteras tecnológicas estudiando **Aná
 ## 📞 Contacto
 - **Teléfono:** +57 3012423797
 - **Email:** [ossanbe.sanchez2977@gmail.com](ossanbe.sanchez2977@gmail.com)
-- **LinkedIn:** linkedin.com/in/www.linkedin.com/in/oswaldo-sanchez-74774666
+- **LinkedIn:** www.linkedin.com/in/oswaldo-sanchez-74774666
 
 ## 🏢 Experiencia Laboral
 ### **Concesionaria Nueva Via al Mar** _(2016 - Actualidad)_

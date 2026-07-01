@@ -6,7 +6,7 @@
 
 ## 📞 Contacto
 - **Teléfono:** +57 3012423797
-- **Email:** [correo@ejemplo.com](ossanbe.sanchez2977@gmail.com)
+- **Email:** [ossanbe.sanchez2977@gmail.com](ossanbe.sanchez2977@gmail.com)
 - **LinkedIn:** [linkedin.com/in/tuusuario](https://linkedin.com/in/tuusuario)
 
 ## 🏢 Experiencia Laboral

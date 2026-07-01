@@ -6,7 +6,6 @@ Tecnólogo en Ingeniería de Sistemas con **10 años de experiencia** en soporte
 Actualmente me encuentro ampliando mis fronteras tecnológicas estudiando **Análisis y Desarrollo de Software**, migrando hacia el desarrollo de soluciones lógicas y automatización de procesos.
 
 ## 📞 Contacto
-- **Teléfono:** +57 3012423797
 - **Email:** [ossanbe.sanchez2977@gmail.com](ossanbe.sanchez2977@gmail.com)
 - **LinkedIn:** www.linkedin.com/in/oswaldo-sanchez-74774666
 

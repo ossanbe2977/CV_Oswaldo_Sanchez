@@ -29,8 +29,13 @@ Backup de la información, Administración de la pagina web de la compañía (Jo
 
 
 ## 🎓 Educación
-### **Universidad Ejemplo** _(2014 - 2018)_
-- Título obtenido.
+### **Instalación y mantenimiento de equipos informáticos** _(2011 - 2012)_
+- Certificación
+- Sena
+
+### **Centro Colombiano de Estudios Superiores** _(1996 - 2001)_
+**CECEP**
+Tecnologo, en Ingenieria de sistemas
 
 ### 🛠️ Habilidades Técnicas
 

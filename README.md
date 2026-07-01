@@ -23,7 +23,7 @@ Instalación de telemetría para transmisión de datos de variadores y sensores 
 Instalación y configuración de radios enlaces (Canopy) realizadas en campo petrolero.
 
 ### **CEDIMA IPS** _(2012 _ 2014
-_ **Soporte IT** Soporte a usuario, configuración de cuentas de correo, ingresos de usuarios al dominio de la red.
+-**Soporte IT** Soporte a usuario, configuración de cuentas de correo, ingresos de usuarios al dominio de la red.
 Mantenimiento preventivo a los equipos y CCTV de la compañía 
 Backup de la información, Administración de la pagina web de la compañía (Joomla), revisión de los canales de comunicación de las dos sedes (Radio enlaces)
 
@@ -35,7 +35,7 @@ Backup de la información, Administración de la pagina web de la compañía (Jo
 
 ### **Centro Colombiano de Estudios Superiores** _(1996 - 2001)_
 **CECEP**
-Tecnologo, en Ingenieria de sistemas
+Tecnologo en Ingenieria de sistemas
 
 ### 🛠️ Habilidades Técnicas
 

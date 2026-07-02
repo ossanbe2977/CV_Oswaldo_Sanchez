@@ -3,72 +3,331 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida</title>
+    <title>CV - Oswaldo Sánchez</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        :root {
+            --primary-color: #1e293b;
+            --accent-color: #2563eb;
+            --text-color: #334155;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        * {
             margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        .container {
-            max-width: 800px;
-            background: white;
-            padding: 20px;
-            margin: auto;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 2rem 1rem;
         }
-        h1, h2 {
-            color: #333;
+
+        .cv-container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
         }
-        .section {
-            margin-bottom: 20px;
+
+        /* Encabezado */
+        header {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
         }
-        .contacto, .experiencia, .educacion, .habilidades {
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 10px;
+
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent-color);
+        }
+
+        .header-text h1 {
+            color: var(--primary-color);
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            list-style: none;
+            margin-top: 0.5rem;
+        }
+
+        .contact-info li {
+            font-size: 0.95rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Secciones Generales */
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.4rem;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 0.75rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        /* Experiencia y Educación */
+        .timeline-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px dashed var(--border-color);
+        }
+
+        .timeline-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .timeline-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-header h3 {
+            color: var(--primary-color);
+            font-size: 1.15rem;
+        }
+
+        .company-date {
+            font-style: italic;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        .job-title {
+            font-weight: 600;
+            color: var(--accent-color);
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-item ul {
+            list-style-type: square;
+            margin-left: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .timeline-item li {
+            margin-bottom: 0.25rem;
+        }
+
+        /* Habilidades */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .skill-category {
+            background: var(--bg-color);
+            padding: 1.25rem;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .skill-category h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.75rem;
+            font-size: 1rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.25rem;
+        }
+
+        .skill-category ul {
+            list-style: none;
+        }
+
+        .skill-category li {
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .skill-category li::before {
+            content: "•";
+            color: var(--accent-color);
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -0.5em;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+            .timeline-header {
+                flex-direction: column;
+            }
+            .cv-container {
+                padding: 1.5rem;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Nombre Completo</h1>
-        <p><strong>Profesión:</strong> Tu profesión</p>
-        
-        <div class="section contacto">
-            <h2>Contacto</h2>
-            <p><strong>Teléfono:</strong> +57 123 456 7890</p>
-            <p><strong>Email:</strong> correo@ejemplo.com</p>
-            <p><strong>LinkedIn:</strong> linkedin.com/in/tuusuario</p>
-        </div>
 
-        <div class="section experiencia">
-            <h2>Experiencia Laboral</h2>
-            <p><strong>Empresa XYZ</strong> (2020 - Actualidad)</p>
-            <p>Puesto ocupado y descripción breve.</p>
-            
-            <p><strong>Empresa ABC</strong> (2018 - 2020)</p>
-            <p>Puesto ocupado y descripción breve.</p>
-        </div>
+<div class="cv-container">
 
-        <div class="section educacion">
-            <h2>Educación</h2>
-            <p><strong>Universidad Ejemplo</strong> (2014 - 2018)</p>
-            <p>Título obtenido.</p>
-        </div>
-
-        <div class="section habilidades">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Habilidad 1</li>
-                <li>Habilidad 2</li>
-                <li>Habilidad 3</li>
+    <header>
+        <img class="profile-img" src="https://github.com/ossanbe2977/CV_Oswaldo_Sanchez/blob/main/Programador.png?raw=true" alt="Oswaldo Sánchez">
+        <div class="header-text">
+            <h1>¡Hello! I'am Oswaldo Sánchez 👋</h1>
+            <ul class="contact-info">
+                <li><strong>📞 Email:</strong> <a href="mailto:ossanbe.sanchez2977@gmail.com">ossanbe.sanchez2977@gmail.com</a></li>
+                <li><strong>🔗 LinkedIn:</strong> <a href="https://www.linkedin.com/in/oswaldo-sanchez-74774666" target="_blank">linkedin.com/in/oswaldo-sanchez-74774666</a></li>
             </ul>
         </div>
-    </div>
+    </header>
+
+    <section>
+        <h2>Perfil Profesional</h2>
+        <p>Tecnólogo en Ingeniería de Sistemas con <strong>10 años de experiencia</strong> en soporte técnico y administración de infraestructura tecnológica. Especializado en la gestión de servidores Windows, entornos virtuales y despliegue de soluciones de ciberseguridad corporativa.</p>
+        <p>Actualmente me encuentro ampliando mis fronteras tecnológicas estudiando <strong>Análisis y Desarrollo de Software</strong>, migrando hacia el desarrollo de soluciones lógicas y automatización de procesos.</p>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+
+        <div class="timeline-item">
+            <div class="timeline-header">
+                <h3>Concesionaria Nueva Via al Mar</h3>
+                <span class="company-date">2016 - Actualidad</span>
+            </div>
+            <div class="job-title">Técnico en Sistemas</div>
+            <p>Administrar los sistemas de información, los recursos tecnológicos y los servicios técnicos contratados. Manejo de herramientas de ciberseguridad (SentinelOne, Netskope, Qualys), herramientas de Backup, administración de servidores y manejo de Hyper-V. Administración de puntos de acceso (Aruba) y conocimiento de herramientas de Azure (Intune, Entra), SharePoint y Office 365.</p>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-header">
+                <h3>Soluciones Tecnológicas AIKON</h3>
+                <span class="company-date">2014 - 2015</span>
+            </div>
+            <div class="job-title">Asistente IT</div>
+            <ul>
+                <li>Prestación de servicios en el diseño, implementación y mantenimiento de sistemas de cableado estructurado y telecomunicaciones.</li>
+                <li>Instalación de antenas satelitales, configuración y cableado.</li>
+                <li>Soporte a usuario, configuración de cuentas de correo, ingreso de usuarios al dominio de la red.</li>
+                <li>Mantenimiento preventivo a los equipos de la compañía de los usuarios Pacific Rubiales y gestión de Backup de la información.</li>
+                <li>Instalación de telemetría para transmisión de datos de variadores y sensores de fondo.</li>
+                <li>Instalación y configuración de enlaces de radio (Canopy) realizadas en campo petrolero.</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-header">
+                <h3>CEDIMA IPS</h3>
+                <span class="company-date">2012 - 2014</span>
+            </div>
+            <div class="job-title">Soporte IT</div>
+            <ul>
+                <li>Soporte a usuario, configuración de cuentas de correo e ingreso de usuarios al dominio de la red.</li>
+                <li>Mantenimiento preventivo a los equipos y sistema de CCTV de la compañía.</li>
+                <li>Respaldo de la información (Backup).</li>
+                <li>Administración de la página web de la compañía (Joomla).</li>
+                <li>Revisión de los canales de comunicación de las dos sedes (Radio enlaces).</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+
+        <div class="timeline-item">
+            <div class="timeline-header">
+                <h3>Instalación y mantenimiento de equipos informáticos</h3>
+                <span class="company-date">2011 - 2012</span>
+            </div>
+            <div class="job-title">Certificación — SENA</div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-header">
+                <h3>Centro Colombiano de Estudios Superiores (CECEP)</h3>
+                <span class="company-date">1996 - 2001</span>
+            </div>
+            <div class="job-title">Tecnólogo en Ingeniería de Sistemas</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>🛠️ Habilidades Técnicas</h2>
+        <div class="skills-grid">
+            
+            <div class="skill-category">
+                <h4>Infraestructura y Soporte</h4>
+                <ul>
+                    <li>Windows Server (Avanzado)</li>
+                    <li>Virtualización (VMs / Hyper-V)</li>
+                    <li>Microsoft Intune (MDM/MAM)</li>
+                    <li>Continuidad de Negocio (Backup)</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h4>Ciberseguridad</h4>
+                <ul>
+                    <li>SASE & Web Security (Netskope)</li>
+                    <li>EDR (SentinelOne)</li>
+                    <li>Gestión de Vulnerabilidades (Qualys)</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h4>Desarrollo (SENA Activo 🚀)</h4>
+                <ul>
+                    <li>Python | Node.js</li>
+                    <li>HTML5 | CSS3</li>
+                    <li>Resolución de problemas lógicos</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
 </body>
-    
-<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2025/04/05/02/20250405021404-CM8Q1FN6.js"></script>
-    
 </html>

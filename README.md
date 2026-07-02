@@ -1,4 +1,4 @@
-# ¡Hello! I'am Oswaldo Sánchez 👋
+# ¡Hello! I'am Oswaldo Sánchez Betancourt👋
 ![texto descriptivo](https://github.com/ossanbe2977/CV_Oswaldo_Sanchez/blob/main/Programador.png)
 ## Perfil Profesional
 Tecnólogo en Ingeniería de Sistemas con **10 años de experiencia** en soporte técnico y administración de infraestructura tecnológica. Especializado en la gestión de servidores Windows, entornos virtuales y despliegue de soluciones de ciberseguridad corporativa. 
@@ -53,7 +53,3 @@ Tecnologo en Ingenieria de sistemas
 #### **Desarrollo de Software (En aprendizaje del Sena activo 🚀)**
 *   **Lenguajes & Entornos:** Python | Node.js
 *   **Desarrollo Web:** HTML5 | CSS3
-
-
-
-Esta plantilla en Markdown es editable y adaptable para cada estudiante. ¡Personaliza según sea necesario! 🎯

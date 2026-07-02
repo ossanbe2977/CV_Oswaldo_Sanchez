@@ -1,5 +1,5 @@
 # ¡Hello! I'am Oswaldo Sánchez 👋
-
+![texto descriptivo](https://github.com/ossanbe2977/CV_Oswaldo_Sanchez/blob/main/Programador.png)
 ## Perfil Profesional
 Tecnólogo en Ingeniería de Sistemas con **10 años de experiencia** en soporte técnico y administración de infraestructura tecnológica. Especializado en la gestión de servidores Windows, entornos virtuales y despliegue de soluciones de ciberseguridad corporativa. 
 

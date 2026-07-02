@@ -11,10 +11,10 @@ Actualmente me encuentro ampliando mis fronteras tecnológicas estudiando **Aná
 
 ## 🏢 Experiencia Laboral
 ### **Concesionaria Nueva Via al Mar** _(2016 - Actualidad)_
-- **Técnico en Sistemas** Administrar los sistemas de información, los recursos tecnológicos y los servicios técnicos contractados, manejo en las herramientas de ciberseguridad (SentinalOne, Netskope, Qualys), herramienta de Backup, Administración de servidores y manejo de la herramienta de HyperV, Administración de los Ap (Aruba), Conocimiento de Herramientas de Azure (Intune, Entra) SharePoint y office 365.
+**Técnico en Sistemas** Administrar los sistemas de información, los recursos tecnológicos y los servicios técnicos contractados, manejo en las herramientas de ciberseguridad (SentinalOne, Netskope, Qualys), herramienta de Backup, Administración de servidores y manejo de la herramienta de HyperV, Administración de los Ap (Aruba), Conocimiento de Herramientas de Azure (Intune, Entra) SharePoint y office 365.
 
 ### **Soluciones Tecnológicas AIKON** _(2014 - 2015)_
-- **Asistente IT** Prestación de servicios en el diseño, implementación y mantenimiento de sistemas de cableado estructurado y telecomunicaciones.
+**Asistente IT** Prestación de servicios en el diseño, implementación y mantenimiento de sistemas de cableado estructurado y telecomunicaciones.
 Instalación de antenas satelitales configuración y cableado.
 Soporte a usuario, configuración de cuentas de correo, ingresos de usuarios al dominio de la red.
 Mantenimiento preventivo a los equipos de la compañía de los usuarios Pacific Rubiales
@@ -23,7 +23,7 @@ Instalación de telemetría para transmisión de datos de variadores y sensores 
 Instalación y configuración de radios enlaces (Canopy) realizadas en campo petrolero.
 
 ### **CEDIMA IPS** _(2012 _ 2014
--**Soporte IT** Soporte a usuario, configuración de cuentas de correo, ingresos de usuarios al dominio de la red.
+**Soporte IT** Soporte a usuario, configuración de cuentas de correo, ingresos de usuarios al dominio de la red.
 Mantenimiento preventivo a los equipos y CCTV de la compañía 
 Backup de la información, Administración de la pagina web de la compañía (Joomla), revisión de los canales de comunicación de las dos sedes (Radio enlaces)
 
